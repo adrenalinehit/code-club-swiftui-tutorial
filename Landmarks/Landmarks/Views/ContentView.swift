@@ -18,11 +18,12 @@ struct ContentView: View {
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
-            VStack (alignment: .leading) {
+            VStack(alignment: .leading) {
                 VStack(alignment: .leading) {
                     Text("Peak District")
                         .font(.title)
-                    HStack {
+                        
+                    HStack() {
                         Text("Stanage Edge")
                             .font(.subheadline)
                         Spacer()
